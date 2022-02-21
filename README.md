@@ -85,3 +85,11 @@ or use Two Stream (slower but higher accuracy):
 python pred.py
 ```
 
+## Prediction Accuracy
+
+|                              | Top-1  | Top-5  |
+| :--------------------------: | :----: | :----: |
+|     Single Image Stream      | 68.32% | 88.07% |
+|    Single Skeleton Stream    | 63.35% | 85.23% |
+| **Two Stream with Skeleton** | 70.71% | 89.57% |
+
